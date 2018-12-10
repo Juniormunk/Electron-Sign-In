@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+<html>
+
+<head>
+
+  <style>
+    body {
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* In order to place the tracking correctly */
+    canvas.drawing,
+    canvas.drawingBuffer {
+      position: center;
+      left: 0;
+      top: 0;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* In order to place the tracking correctly */
+    canvas.drawing,
+    canvas.drawingBuffer {
+      position: center;
+      left: 0;
+      top: 0;
+    }
+  </style>
+</head>
+<script src="https://cdn.rawgit.com/serratus/quaggaJS/0420d5e0/dist/quagga.min.js"></script>
+
+<body>
+    <center><div id="scanner-container"></div></center>
+
+
+
+</body>
+
+<script>
+  // You can also require other files to run in this process
+  require('./ScanRender.js')
+
+</script>
+
+
+</html>

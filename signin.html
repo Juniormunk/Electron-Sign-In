@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+<html>
+  <head>
+      <style>
+          body {
+            overflow-x: hidden;
+            overflow-y: hidden;
+          }
+        </style>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <table style="width: 800px; height: 480px;">
+      <tbody>
+        <tr style="height: 100%;">
+          <td style="width: 60%; height: 480px;"valign="top" bgcolor="#595959">
+            <br>
+            <p><center><img src="http://static1.squarespace.com/static/569a8e185827c35cee1bef3e/t/5a5145f68165f5deaa5a5e5f/1525276147072/?format=1500w" alt="BB Logo" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;" /></center></p>
+            <p><font color="white"><strong><center>Welcome to the sign-in system.</center></strong></font></p>
+          </td>
+          <td style="width: 40%; height: 480px;"valign="center" bgcolor="86D82C">
+            <center>
+                <button type="button" class="btn btn-primary btn-lg" id="SignIn">Sign-In</button>
+            </center>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+      // You can also require other files to run in this process
+      require('./MainRender.js')
+    </script>
+</html>
