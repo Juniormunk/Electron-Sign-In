@@ -28,8 +28,8 @@ function startScanner() {
         },
         decoder: {
             readers: [
-                "code_39_reader",
-                "code_39_vin_reader"
+                "code_39_reader"
+
             ],
             debug: {
                 showCanvas: true,

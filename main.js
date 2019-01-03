@@ -36,7 +36,10 @@ function createWindow () {
   })
   ipc.on('show-Scan', function()
   {
+    //ToDo:
+    //TRY
     mainWindow.loadFile('scan.html')
+    //LOAD ERROR IF FAIL.
   })
 
  
